@@ -27,12 +27,7 @@ void loop() {
 
     sensorState = digitalRead(IR_PIN);
 
-    // TODO 7:
-    // If obstacle detected
-    //     Print "Obstacle Detected"
-    // Else
-    //     Print "No Obstacle"
-    if (sensorState == LOW) {   // Many IR sensors output LOW when obstacle detected
+    if (sensorState == LOW) {
         Serial.println("Obstacle Detected");
     } else {
         Serial.println("No Obstacle");
