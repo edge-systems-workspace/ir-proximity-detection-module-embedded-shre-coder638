@@ -12,7 +12,7 @@
  * LOW on the sensor pin indicates an obstacle; HIGH indicates no obstacle.
  */
 
-const int IR_PIN = 2;
+int IR_PIN = 2;
 int sensorState = 0;
 
 /**
