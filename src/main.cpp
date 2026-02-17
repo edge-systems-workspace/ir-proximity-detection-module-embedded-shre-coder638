@@ -10,11 +10,10 @@
  * and detects obstacle presence.
  */
 
- // TODO 1:
- // Define IR sensor digital pin (Use pin 2)
 
- // TODO 2:
- // Create variable to store sensor state
+const int IR_PIN = 2;
+
+int sensorState = 0;
 
 void setup() {
 
