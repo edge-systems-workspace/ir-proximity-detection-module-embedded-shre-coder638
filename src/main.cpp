@@ -23,8 +23,10 @@ void setup() {
 
 void loop() {
 
-    // TODO 6:
-    // Read digital value from IR sensor
+    fsrValue = analogRead(FSR_PIN);
+
+    Serial.print("Raw ADC Value: ");
+    Serial.println(fsrValue);
 
     // TODO 7:
     // If obstacle detected
