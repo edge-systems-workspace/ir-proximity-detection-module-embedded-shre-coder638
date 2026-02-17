@@ -3,7 +3,7 @@
 /**
  * @file `main.cpp`
  * @brief Embedded Obstacle Detection System using an IR proximity sensor
- * @author shre-coder638
+ * @author shre-coder638 (Shreyash Shankar)
  * @date 2026-02-17
  *
  * @details
